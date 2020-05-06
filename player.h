@@ -1,16 +1,17 @@
 
 class player{
 	public:
-		void GetName();//ÊäÈëÍæ¼ÒĞÕÃû
-		void GetScore();//»ñÈ¡Íæ¼Òµ±Ç°µÃ·Ö 
-		void AddBlock();//µ×²¿Ôö¼Ó´ø¿Õ¸ñµÄÒ»ĞĞ 
-		void GetMap();//Íæ¼ÒµÃµ½µØÍ¼ 
-		
+		void GetName();//è¾“å…¥ç©å®¶å§“å
+		void GetScore();//è·å–ç©å®¶å½“å‰å¾—åˆ† 
+		void AddBlock();//åº•éƒ¨å¢åŠ å¸¦ç©ºæ ¼çš„ä¸€è¡Œ 
+		void GetMap();//ç©å®¶å¾—åˆ°åœ°å›¾ 
+		void pause;//æš‚åœæ¸¸æˆ
+                void quit;//é€€å‡ºæ¸¸æˆ
 	private:
-		string name;//Íæ¼ÒĞÕÃû 
-		int score();//µÃ·Ö
-		int blockA();//ÏÂÂäÖĞµÄ·½¿é 
-		int blockB();//¼´½«ÏÂÂäµÄ·½¿é 
-		int map();//Íæ¼ÒµÄµÄµØÍ¼ 
-		bool ending();//ÓÎÏ·ÊÇ·ñ½áÊø 
+		string name;//ç©å®¶å§“å 
+		int score();//å¾—åˆ†
+		int blockA();//ä¸‹è½ä¸­çš„æ–¹å— 
+		int blockB();//å³å°†ä¸‹è½çš„æ–¹å— 
+		int map();//ç©å®¶çš„çš„åœ°å›¾ 
+		bool ending();//æ¸¸æˆæ˜¯å¦ç»“æŸ 
 };
