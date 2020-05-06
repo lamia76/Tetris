@@ -1,12 +1,11 @@
 class render{
 	public:
-		void game_start();//¿ªÊ¼ÓÎÏ· 
-		void game_over();//½áÊøÓÎÏ· 
-		void grade();//ÏÔÊ¾·ÖÊı
-		void time_show();//ÏÔÊ¾Ê±¼ä 
-		void draw_main_screen();//»æÖÆÖ÷½çÃæ
-		void draw_option();//»æÖÆÓÎÏ·ÉèÖÃ»­Ãæ 
-		void draw_kong();//»æÖÆ·½¿é
-		void screen_refresh();//Ë¢ĞÂÆÁÄ»ÏÔÊ¾ 
+		void special_events();//ç‰¹æ®Šäº‹ä»¶æç¤ºï¼ˆå¼€å§‹ï¼Œç»“æŸï¼Œä»¥åŠå…¶ä»–äº‹ä»¶ï¼Œå¯åç»­é¢å¤–æ·»åŠ å…¶ä»–åŠŸèƒ½æ—¶å†åšä¿®æ”¹ï¼‰ 
+		void grade();//æ˜¾ç¤ºåˆ†æ•°
+		void time_show();//æ˜¾ç¤ºæ—¶é—´ 
+		void draw_main_screen();//ç»˜åˆ¶ä¸»ç•Œé¢
+		void draw_option();//ç»˜åˆ¶æ¸¸æˆè®¾ç½®ç”»é¢ 
+		void draw_kong();//ç»˜åˆ¶æ–¹å—
+		void screen_refresh();//åˆ·æ–°å±å¹•æ˜¾ç¤º 
 	private: 
 };
