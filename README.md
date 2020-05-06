@@ -1,2 +1,2 @@
 # Tetris
-c++ home work（Tetris）
+c++ homework（Tetris）
