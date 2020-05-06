@@ -1,12 +1,11 @@
 class game{
 	public:
-	    void setcolot();//·½¿éÑÕÉ«ÉèÖÃ 
-	    void hit();//ÅÐ¶Ï·½¿éÖ®¼äµÄ»òÓë½çÃæµÄÅö×²ÒÔ¼°ÊÇ·ñ¿ÉÒÔÒÆ¶¯ 
-	    int score();//Ïû³ýÐÐÒÔ¼°¼Ó·ÖÅÐ¶¨
-	    void add();//¼ÓÒ»ÐÐËæ»úÐÐ
-	    void time();//Ê±¼äÍ³¼Æ
-	    void accelerate();//ËæÓÎÏ·Ê±¼äÍÆ½ø·½¿é¼ÓËÙÏÂÂä 
-	    bool out();//ÅÐ¶ÏÊÇ·ñÓÎÏ·Ê§°Ü£¨¼´·½¿éÊÇ·ñ³¬³ö½çÃæÉÏÏÞ£© 
-	    void return();//½çÃæÇÐ»» 
+	    void setcolot();//æ–¹å—é¢œè‰²è®¾ç½® 
+	    void hit();//åˆ¤æ–­æ–¹å—ä¹‹é—´çš„æˆ–ä¸Žç•Œé¢çš„ç¢°æ’žä»¥åŠæ˜¯å¦å¯ä»¥ç§»åŠ¨ 
+	    int score();//æ¶ˆé™¤è¡Œä»¥åŠåŠ åˆ†åˆ¤å®š
+	    void time();//æ—¶é—´ç»Ÿè®¡
+	    void accelerate();//éšæ¸¸æˆæ—¶é—´æŽ¨è¿›æ–¹å—åŠ é€Ÿä¸‹è½ 
+	    bool out();//åˆ¤æ–­æ˜¯å¦æ¸¸æˆå¤±è´¥ï¼ˆå³æ–¹å—æ˜¯å¦è¶…å‡ºç•Œé¢ä¸Šé™ï¼‰ 
+	    void return();//ç•Œé¢åˆ‡æ¢ 
 	private:	
 }; 
